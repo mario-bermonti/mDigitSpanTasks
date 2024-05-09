@@ -11,8 +11,7 @@ void runSession(
     {required Function({
       required String participantID,
       required String sessionID,
-    })
-        taskRunner,
+    }) taskRunner,
     required String dbName}) async {
   final String participantID = await showParticipantInfoDialog();
 
